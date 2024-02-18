@@ -1,0 +1,21 @@
+/*Reset*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+:root {
+  --primary-color: #219f95;
+  --secondary-color-light: #afcedd;
+  --black-color: #000000;
+  --white-color: #ffffff;
+  --heading1-color: #1e1e1e;
+  --heading2-color: #234894;
+  --font-color-sub: #696969;
+}
+html {
+  font-size: 62.5%;
+}
