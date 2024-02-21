@@ -110,14 +110,22 @@ html {
 .date {
   color: var(--font-color-sub);
 }
-.profile__image {
-  display: flex;
-  flex-direction: column;
-
+.member__request{
+  h2{
+    color: var(--black-color);
+  }
+  span{
+    color: var(--font-color-sub);
+  }
 }
 
-img{
-  background-image:;
-  border-radius: 40px;
-
+.member__id{
+  display: flex;
+  justify-content: space-between;
+}
+.member__footer{
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+  font-size: large;
 }
